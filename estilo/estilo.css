@@ -1,0 +1,157 @@
+/*****************
+ Autor: Alonso Antuña Gómez - UO282834
+ Descripción de la hoja de estilo: Hoja de estilos de la página web con una temática romántica. 
+ Incluye dimensiones unificadas para imágenes, videos y otros elementos multimedia.
+ ******************/
+
+/* General styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #FFF0F6; /* Rosa claro */
+    color: #5A1E5C; /* Morado oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    background-color: #FF6F91; /* Rosa vibrante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+/* Header styles */
+header {
+    background-color: #FF6F91; /* Rosa vibrante */
+    color: white;
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header title */
+h1 {
+    color: white;
+    font-size: 2.5em;
+    background-color: #FF6F91;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+/* Subtitles */
+h2 {
+    font-size: 1.8em;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    background-color: #FF85A1; /* Tono más suave */
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+/* Paragraphs */
+p {
+    margin: 1em 2em;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #FF6F91;
+    color: white;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.7em 1em;
+    border-radius: 1em;
+    margin: 0.5em;
+    background-color: #FF85A1;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #FF4273; /* Más vibrante */
+    color: white;
+}
+
+/* Forms */
+form {
+    padding: 2em;
+    font-size: 1.1em;
+    border-radius: 1em;
+    background-color: #FFE1EB; /* Fondo suave */
+    color: #5A1E5C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    margin: 1em;
+    padding: 1em;
+    background-color: #FF6F91;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tables */
+table {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    background-color: #FFE1EB;
+    color: #5A1E5C;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+td, th {
+    background-color: #FF85A1;
+    color: white;
+    padding: 0.8em;
+    border-radius: 1em;
+}
+
+/* Lists */
+ul, ol {
+    background-color: #FFE1EB;
+    color: #5A1E5C;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+ul li {
+    background-color: #FF85A1;
+    color: white;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Unified media dimensions */
+img, video {
+    max-width: 10%; /* Mantener proporciones */
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
